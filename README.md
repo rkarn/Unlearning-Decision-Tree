@@ -11,7 +11,7 @@ It's important to note that unlearning in machine learning is still an active ar
 
 **So in this work, the modification of the tree to remove the branches corresponding to the forget class is adopted.**
 
-**In the jupyternotebook, the first part show difficulty in pruning the nodes/branch. So an alternate mechansim is adopted where a chain of if\else statements are added.**
+**In the jupyternotebooks, the notebook `Machine Unlearning DT (Nested if-else rules) .ipynb` show difficulty in pruning the nodes/branch. So an alternate mechansim is adopted in `Machine Unlearning DT (Chain of  if rules).ipynb` where a chain of `if` statements are added.**
 
 
 
