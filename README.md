@@ -29,4 +29,4 @@ Overall, the behavior of the model when samples of forget classes are fed to it 
 **In this work, the label `0` has been assigned for forget class samples if it is fed to the model.**
 
 
-**The unlearning process has also been tested with the UNSW cyber-security dataset. The sample unlearning is shown in notebook `Machine Unlearning DT (Chain of  if rules) UNSW.ipynb`.**
+**The unlearning process has also been tested with the `cyber-security` dataset. The sample unlearning for UNSW is shown in notebook `Machine Unlearning DT (Chain of  if rules) UNSW.ipynb` while for NSL-KDD is shown in `Machine Unlearning DT (Chain of  if rules) NSL-KDD.ipynb`.**
