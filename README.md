@@ -11,7 +11,7 @@ It's important to note that unlearning in machine learning is still an active ar
 
 **So in this work, the modification of the tree to remove the branches corresponding to the forget class is adopted.**
 
-**In the jupyternotebooks, the notebook `Machine Unlearning DT (Nested if-else rules) .ipynb` show difficulty in pruning the nodes/branch. So an alternate mechansim is adopted in `Machine Unlearning DT (Chain of  if rules).ipynb` where a chain of `if` statements are added.**
+**In the jupyternotebooks, the notebook `Machine Unlearning DT (Nested if-else rules) MNIST.ipynb` show difficulty in pruning the nodes/branch. So an alternate mechansim is adopted in `Machine Unlearning DT (Chain of  if rules) MNIST.ipynb` where a chain of `if` statements are added.**
 
 **For STM32F303RE microcontroller implementation, a python in notebook `Unlearning_dt_MNIST_python_to_C.ipynb` generates the C code. This C code is transferred to the STMCube IDE for compile, build, and run. The generated C code is also available in the `DT Generated files` folder.**
 
@@ -27,3 +27,6 @@ In machine unlearning, when the samples of forget classes are fed to the model a
 Overall, the behavior of the model when samples of forget classes are fed to it after the unlearning process depends on various factors, including the specific unlearning technique used, the model architecture, and how the model is designed to handle forget classes. It's important to carefully design and evaluate the unlearning process to ensure appropriate handling of forget classes and to maintain the model's performance over time.
 
 **In this work, the label `0` has been assigned for forget class samples if it is fed to the model.**
+
+
+**The unlearning process has also been tested with the UNSW cyber-security dataset. The sample unlearning is shown in notebook `Machine Unlearning DT (Chain of  if rules) UNSW.ipynb`.**
