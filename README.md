@@ -13,6 +13,8 @@ It's important to note that unlearning in machine learning is still an active ar
 
 **In the jupyternotebooks, the notebook `Machine Unlearning DT (Nested if-else rules) .ipynb` show difficulty in pruning the nodes/branch. So an alternate mechansim is adopted in `Machine Unlearning DT (Chain of  if rules).ipynb` where a chain of `if` statements are added.**
 
+**For STM32F303RE microcontroller implementation, a python in notebook `Unlearning_dt_MNIST_python_to_C.ipynb` generates the C code. This C code is transferred to the STMCube IDE for compile, build, and run. The generated C code is also available in the `DT Generated files` folder.**
+
 
 
 In machine unlearning, when the samples of forget classes are fed to the model after the unlearning process, the behavior of the model can vary depending on the specific unlearning technique employed and how the model is designed to handle such cases. Here are some possible scenarios:
