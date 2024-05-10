@@ -1,0 +1,262 @@
+all_class
+
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |     .text |   .data |      .bss |
+|----------------------|-----------|---------|-----------|
+| [lib]\c_w.l          |  4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |    26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |    44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |    32(+0) |   0(+0) |  1024(+0) |
+| main.o               | 16392(+0) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |  9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |   423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |  3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |  1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |  7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |   440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |  9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 54406(+0) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 54670(+0) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+==============================================================
+forget_2
+
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |         .text |   .data |      .bss |
+|----------------------|---------------|---------|-----------|
+| [lib]\c_w.l          |      4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |        26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |        44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |        32(+0) |   0(+0) |  1024(+0) |
+| main.o               |  3090(-13302) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |      9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |       423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |      3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |      1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |      7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |       440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |      9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 41104(-13302) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 41368(-13302) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+
+forget_3 
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               |  5098(+2008) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 43112(+2008) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 43376(+2008) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+forget_4
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               |  6888(+1790) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 44902(+1790) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 45166(+1790) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+
+forget_5
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               |  8060(+1172) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 46074(+1172) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 46338(+1172) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+forget_6
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               | 10082(+2022) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 48096(+2022) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 48360(+2022) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+forget_7
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               | 12162(+2080) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 50176(+2080) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 50440(+2080) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+forget_8
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |       .text |   .data |      .bss |
+|----------------------|-------------|---------|-----------|
+| [lib]\c_w.l          |    4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |      26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |      44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |      32(+0) |   0(+0) |  1024(+0) |
+| main.o               | 12842(+680) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |    9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |     423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |    3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |    1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |    7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |     440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |    9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 50856(+680) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 51120(+680) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+forget_9
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               | 15254(+2412) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 53268(+2412) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 53532(+2412) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
+
+all_class
+Building project mbed-os-example-blinky (NUCLEO_F303RE, ARMC6)
+Scan: mbed-os-example-blinky
+Compile [100.0%]: main.cpp
+Link: mbed-os-example-blinky
+[Warning] @0,0: L3912W: Option 'legacyalign' is deprecated.
+Elf2Bin: mbed-os-example-blinky
+| Module               |        .text |   .data |      .bss |
+|----------------------|--------------|---------|-----------|
+| [lib]\c_w.l          |     4998(+0) |  20(+0) |   348(+0) |
+| [lib]\fz_wm.l        |       26(+0) |   0(+0) |     0(+0) |
+| [lib]\libcppabi_w.l  |       44(+0) |   0(+0) |     0(+0) |
+| anon$$obj.o          |       32(+0) |   0(+0) |  1024(+0) |
+| main.o               | 16392(+1138) |   0(+0) |   884(+0) |
+| mbed-os\cmsis        |     9614(+0) | 168(+0) |  6738(+0) |
+| mbed-os\connectivity |      423(+0) |   0(+0) |     0(+0) |
+| mbed-os\drivers      |     3478(+0) |   0(+0) |     0(+0) |
+| mbed-os\hal          |     1474(+0) |   4(+0) |    58(+0) |
+| mbed-os\platform     |     7599(+0) |  64(+0) |   344(+0) |
+| mbed-os\rtos         |      440(+0) |   0(+0) |     0(+0) |
+| mbed-os\targets      |     9886(+0) |   8(+0) |   862(+0) |
+| Subtotals            | 54406(+1138) | 264(+0) | 10258(+0) |
+Total Static RAM memory (data + bss): 10522(+0) bytes
+Total Flash memory (text + data): 54670(+1138) bytes
+Image: BUILD/NUCLEO_F303RE/ARMC6\mbed-os-example-blinky.bin
